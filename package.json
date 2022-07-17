@@ -2,6 +2,7 @@
   "name": "nextjs-template",
   "version": "0.1.0",
   "license": "MIT",
+  "author": "Benjamin Cruz <benjamin_cruz@Outlook.es>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/beenjii14/nextjs-template.git"
