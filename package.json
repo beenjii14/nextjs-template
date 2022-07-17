@@ -7,12 +7,12 @@
     "url": "git+https://github.com/beenjii14/nextjs-template.git"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_ENV=development next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production next start",
     "production:start": "npm run build && npm run start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx && stylelint \"**/*.scss\"",
-    "test": "jest --coverage --no-cache --detectOpenHandles --runInBand",
+    "test": "NODE_ENV=test jest --coverage --no-cache --detectOpenHandles --runInBand --silent",
     "test:s": "jest --updateSnapshot",
     "test:watch": "jest --watch",
     "test:ci": "jest --ci",
@@ -23,7 +23,8 @@
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "sass": "1.52.3"
+    "sass": "1.52.3",
+    "winston": "3.8.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "5.16.4",

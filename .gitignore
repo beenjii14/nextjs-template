@@ -39,3 +39,6 @@ public/robots.txt
 
 # visual studio code
 .vscode
+
+# file enviroment
+.env

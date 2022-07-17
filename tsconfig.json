@@ -16,7 +16,12 @@
 		"baseUrl": ".",
     "paths": { 
       "pages/*": ["src/pages/*"],
-      "styles/*": ["src/styles/*"]
+      "styles/*": [
+        "src/styles/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ]
     },
 		"incremental": true
 	},
