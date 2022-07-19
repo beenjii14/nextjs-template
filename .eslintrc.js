@@ -21,6 +21,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'standard-with-typescript',
     'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
   ],
   rules: {
     '@typescript-eslint/semi': 0,

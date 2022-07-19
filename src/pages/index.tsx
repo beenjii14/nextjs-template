@@ -1,4 +1,3 @@
-import React from 'react';
 import type { GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import styles from 'styles/pages/home.module.scss';
