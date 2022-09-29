@@ -17,11 +17,12 @@ Structured and configured packages ready to put logic into your project
 
 This is the directory structure of the application.
 
-```
+```text
   ├── __tests__ -> Unit tests
   ├── src -> Codebase
   │   ├── pages
   │   ├── styles
+  │   ├── utils
   └── coverage
         ├── lcov-report
 ```
@@ -29,27 +30,52 @@ This is the directory structure of the application.
 ## Requirements
 
 - [Node](https://nodejs.org/en/) >=16.14.0
+- Install PNPM from [here](https://pnpm.io/es/installation)
+- Install Git from [here](https://git-scm.com/downloads)
+- Have shell or command line (If you use Mac and Linux, you have a terminal pre-installed, if you are using windows you can use [git bash](https://git-scm.com/downloads))
 
-## Installation
+## Development
 
-Clon the repo
+```bash
+# Clone the repo
+git clone git clone https://github.com/beenjii14/nextjs-template.git
 
-`git clone https://github.com/beenjii14/nextjs-template.git`
+# Install dependencies
+pnpm install
 
-then run
-
-`npm run i`
-
-and finally run
-
-`npm run dev`
+# Run the app
+pnpm dev
+```
 
 ## Production
 
-then run
+```bash
+# Clone the repo
+git clone git clone https://github.com/beenjii14/nextjs-template.git
 
-`npm run i`
+# Install dependencies
+npm install
 
-and finally run
+# Run the app
+npm run production:start
+```
 
-`npm run production:start`
+## Extra commands
+
+Run the unit tests
+
+```bash
+# Run the unit tests with coverage
+pnpm test
+
+# Run the unit tests watch mode
+pnpm test:watch
+```
+
+Run the eslint
+
+```bash
+pnpm lint
+```
+
+## [License MIT](LICENSE)
