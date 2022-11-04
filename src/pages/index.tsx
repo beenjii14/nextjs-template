@@ -21,7 +21,7 @@ const Home: NextPage = ({ title }: IProps) => {
 
 export const getStaticProps: GetStaticProps = _context => {
   return {
-    props: { title: 'NextJsTemplate' },
+    props: { title: 'NextJsTemplate' }
   };
 };
 
